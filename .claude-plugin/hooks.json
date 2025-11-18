@@ -1,0 +1,336 @@
+{
+  "hooks": [
+    {
+      "event": "session_start",
+      "name": "developer-roadmap-welcome",
+      "description": "Welcome message and feature overview on session start",
+      "enabled": true,
+      "priority": 1000,
+      "handler": {
+        "type": "message",
+        "content": "🎯 Welcome to Developer Roadmap Pro - Your Personal Software Development Master\n\nThis plugin provides 7 specialized expert agents, comprehensive learning paths, and 50+ aligned projects across these specializations:\n\n1. 🔤 Programming Fundamentals - Python, JavaScript, Go, Java, Rust\n2. 💾 Database Management - SQL, NoSQL, Scaling, Optimization\n3. 🔌 API Development - REST, GraphQL, Security, Performance\n4. 🏗️ Architecture & Patterns - 23 Design Patterns, System Design, Scaling\n5. ⚡ Performance & Caching - Profiling, Optimization, Monitoring\n6. 🚀 DevOps & Infrastructure - Docker, Kubernetes, CI/CD, Terraform\n7. 🔒 Testing & Security - Testing, OWASP, Compliance, Incident Response\n\n📚 Available Commands:\n• /learn - Get personalized learning paths\n• /browse-agent - Explore expert agents\n• /assess - Evaluate your skill levels\n• /projects - Find aligned practice projects\n\n🚀 Quick Start: Run /learn to begin your journey!"
+      }
+    },
+    {
+      "event": "command_executed",
+      "name": "learn-path-tracker",
+      "description": "Track learning path progress and milestones",
+      "enabled": true,
+      "priority": 500,
+      "triggers": {
+        "command": "/learn"
+      },
+      "handler": {
+        "type": "tracking",
+        "track": {
+          "specialization": "User's selected specialization",
+          "level": "Chosen level (Beginner/Intermediate/Advanced)",
+          "goals": "Learning goals selected",
+          "weeks_planned": "Total duration",
+          "start_date": "Current date"
+        }
+      }
+    },
+    {
+      "event": "command_executed",
+      "name": "agent-explorer-tracker",
+      "description": "Track which agents and skills users explore",
+      "enabled": true,
+      "priority": 400,
+      "triggers": {
+        "command": "/browse-agent"
+      },
+      "handler": {
+        "type": "tracking",
+        "track": {
+          "agent_viewed": "Agent specialization",
+          "skills_accessed": "Connected SKILL.md files",
+          "depth_level": "Quick overview vs detailed dive",
+          "related_topics": "Additional areas of interest"
+        }
+      }
+    },
+    {
+      "event": "command_executed",
+      "name": "skill-assessment-tracker",
+      "description": "Track assessment results and improvements",
+      "enabled": true,
+      "priority": 600,
+      "triggers": {
+        "command": "/assess"
+      },
+      "handler": {
+        "type": "tracking",
+        "track": {
+          "assessment_date": "Date of assessment",
+          "scores": {
+            "programming": "Programming Fundamentals score",
+            "databases": "Database Management score",
+            "api_design": "API Development score",
+            "architecture": "Architecture & Patterns score",
+            "performance": "Performance & Caching score",
+            "devops": "DevOps & Infrastructure score",
+            "security": "Testing & Security score"
+          },
+          "average_score": "Overall proficiency",
+          "strongest_area": "Highest scoring specialization",
+          "needs_improvement": "Lowest scoring areas",
+          "recommended_focus": "AI-generated recommendations"
+        }
+      }
+    },
+    {
+      "event": "command_executed",
+      "name": "project-selector-tracker",
+      "description": "Track project selection and progress",
+      "enabled": true,
+      "priority": 550,
+      "triggers": {
+        "command": "/projects"
+      },
+      "handler": {
+        "type": "tracking",
+        "track": {
+          "projects_viewed": "Projects browsed",
+          "project_selected": "Project started",
+          "specialization": "Project's specialization",
+          "difficulty": "Project difficulty level",
+          "estimated_duration": "Weeks to complete",
+          "start_date": "When project started",
+          "status": "In Progress/Completed"
+        }
+      }
+    },
+    {
+      "event": "user_skill_completed",
+      "name": "milestone-validator",
+      "description": "Validate learning milestones and update progress",
+      "enabled": true,
+      "priority": 700,
+      "handler": {
+        "type": "validation",
+        "validate": {
+          "milestone_type": "Skills, Projects, Assessments",
+          "prerequisites_met": "Ensure proper progression",
+          "skill_level": "Validate current level",
+          "recommend_next": "Suggest next steps"
+        }
+      }
+    },
+    {
+      "event": "project_completed",
+      "name": "project-completion-handler",
+      "description": "Celebrate completion and recommend next projects",
+      "enabled": true,
+      "priority": 650,
+      "handler": {
+        "type": "notification",
+        "on_completion": {
+          "message": "Congratulations on completing {project_name}!",
+          "skills_reinforced": "List of skills practiced",
+          "portfolio_impact": "How this helps your portfolio",
+          "next_recommendations": "3 suggested next projects",
+          "difficulty_progression": "Suggest stepping up difficulty"
+        }
+      }
+    },
+    {
+      "event": "assessment_completed",
+      "name": "skill-improvement-recommender",
+      "description": "Recommend improvement areas based on assessment",
+      "enabled": true,
+      "priority": 750,
+      "handler": {
+        "type": "ai_recommendation",
+        "analyze": {
+          "scores": "All assessment scores",
+          "gaps": "Knowledge gaps identified",
+          "strengths": "Strong areas",
+          "trajectory": "Learning trajectory"
+        },
+        "recommend": {
+          "priority_areas": "Top 2-3 areas to focus on",
+          "learning_paths": "Personalized paths for weak areas",
+          "suggested_projects": "5 aligned projects",
+          "timeline": "Estimated improvement timeline",
+          "resources": "Books, articles, courses"
+        }
+      }
+    },
+    {
+      "event": "weekly_check_in",
+      "name": "progress-checkpoint",
+      "description": "Weekly progress check-in and encouragement",
+      "enabled": true,
+      "priority": 300,
+      "schedule": "weekly",
+      "handler": {
+        "type": "notification",
+        "check": {
+          "learning_progress": "How much was completed this week?",
+          "projects_advanced": "Project progress",
+          "time_invested": "Total hours",
+          "consistency": "Week-to-week consistency"
+        },
+        "provide": {
+          "motivation": "Encouragement based on progress",
+          "adjustment": "Suggest pace adjustments if needed",
+          "next_focus": "What to focus on next week",
+          "milestone_check": "Are we on track for milestones?"
+        }
+      }
+    },
+    {
+      "event": "monthly_review",
+      "name": "monthly-progress-review",
+      "description": "Monthly comprehensive progress review",
+      "enabled": true,
+      "priority": 350,
+      "schedule": "monthly",
+      "handler": {
+        "type": "review",
+        "analyze": {
+          "total_hours": "Total learning hours this month",
+          "projects_completed": "Completed projects",
+          "specializations_touched": "Which areas studied?",
+          "assessment_improvement": "Score improvements",
+          "consistency": "Learning consistency"
+        },
+        "report": {
+          "highlights": "Major accomplishments",
+          "challenges": "Areas of difficulty",
+          "velocity": "Learning pace",
+          "recommendations": "Adjust learning path?",
+          "motivational_message": "Celebrate progress"
+        }
+      }
+    },
+    {
+      "event": "prerequisite_check",
+      "name": "learning-path-validator",
+      "description": "Ensure proper learning progression and prerequisites",
+      "enabled": true,
+      "priority": 800,
+      "handler": {
+        "type": "validation",
+        "check_prerequisites": {
+          "programming_fundamentals": "Foundation for all other skills",
+          "databases": "Needed before API development",
+          "api_design": "Requires databases and fundamentals",
+          "architecture": "Requires fundamentals + multiple specializations",
+          "devops": "Required for deployment of all projects"
+        },
+        "enforce": {
+          "warn_if_jumping": "Alert if skipping prerequisites",
+          "recommend_order": "Suggest optimal learning sequence",
+          "catch_up_plan": "Quick path to catch up on gaps"
+        }
+      }
+    },
+    {
+      "event": "agent_interaction",
+      "name": "agent-skill-synchronizer",
+      "description": "Sync interactions between agents and their SKILL.md files",
+      "enabled": true,
+      "priority": 900,
+      "handler": {
+        "type": "synchronization",
+        "agent_to_skill_mapping": {
+          "agent_01_programming": "skills/programming-languages/SKILL.md",
+          "agent_02_database": "skills/databases/SKILL.md",
+          "agent_03_api": "skills/api-design/SKILL.md",
+          "agent_04_architecture": "skills/architecture/SKILL.md",
+          "agent_05_performance": "skills/performance/SKILL.md",
+          "agent_06_devops": "skills/devops/SKILL.md",
+          "agent_07_security": "skills/security/SKILL.md"
+        },
+        "ensure": {
+          "content_alignment": "Agent and skill content matches",
+          "learning_path_consistency": "Paths consistent across components",
+          "project_alignment": "Projects match agent expertise",
+          "cross_references": "Proper linking between all components"
+        }
+      }
+    },
+    {
+      "event": "command_help_requested",
+      "name": "contextual-help-provider",
+      "description": "Provide contextual help based on user confusion or questions",
+      "enabled": true,
+      "priority": 200,
+      "handler": {
+        "type": "help_handler",
+        "provide": {
+          "command_help": "Detailed command usage",
+          "concept_explanation": "Explain learning concepts",
+          "example_projects": "Show relevant examples",
+          "resources": "Link to detailed resources"
+        }
+      }
+    },
+    {
+      "event": "error_encountered",
+      "name": "error-guidance-provider",
+      "description": "Provide helpful guidance when users encounter errors",
+      "enabled": true,
+      "priority": 100,
+      "handler": {
+        "type": "error_handler",
+        "on_error": {
+          "clarify": "Explain what went wrong",
+          "guide": "Step-by-step fix",
+          "prevent": "How to prevent future errors",
+          "learn": "Learning opportunity from error"
+        }
+      }
+    },
+    {
+      "event": "goal_achieved",
+      "name": "achievement-celebrator",
+      "description": "Celebrate achievements and milestones",
+      "enabled": true,
+      "priority": 250,
+      "handler": {
+        "type": "celebration",
+        "on_achievement": {
+          "first_project": "🎉 First project completed!",
+          "specialization_milestone": "🏆 Completed specialization!",
+          "assessment_score_jump": "📈 Big score improvement!",
+          "contribution": "🌟 Open source contribution!",
+          "expertise_reached": "👑 Reached expert level!"
+        },
+        "actions": {
+          "message": "Congratulatory message",
+          "badge": "Digital achievement badge",
+          "share_suggestion": "Share your achievement",
+          "next_goal": "Suggest next challenge"
+        }
+      }
+    }
+  ],
+  "event_types": {
+    "session_start": "User opens plugin",
+    "command_executed": "User runs any slash command",
+    "user_skill_completed": "User completes a skill milestone",
+    "project_completed": "User finishes a project",
+    "assessment_completed": "User completes skill assessment",
+    "weekly_check_in": "Automatic weekly progress check",
+    "monthly_review": "Automatic monthly review",
+    "prerequisite_check": "Validate learning prerequisites",
+    "agent_interaction": "User interacts with agent",
+    "command_help_requested": "User asks for help",
+    "error_encountered": "User encounters error",
+    "goal_achieved": "User reaches milestone"
+  },
+  "tracking_enabled": true,
+  "notifications_enabled": true,
+  "recommendations_enabled": true,
+  "validation_enabled": true,
+  "ai_features": {
+    "personalized_paths": true,
+    "smart_recommendations": true,
+    "progress_analysis": true,
+    "gap_identification": true,
+    "next_step_suggestions": true
+  }
+}
