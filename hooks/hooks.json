@@ -1,0 +1,63 @@
+{
+  "hooks": [
+    {
+      "name": "progress-tracker",
+      "description": "Track user learning progress and save milestones",
+      "events": [
+        "skill:completed",
+        "project:finished",
+        "level:advanced"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "skill-validator",
+      "description": "Validate skill requirements before advancing",
+      "events": [
+        "roadmap:start",
+        "skill:attempt"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "project-checker",
+      "description": "Verify project completion with checklist",
+      "events": [
+        "project:submit"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "assessment-reminder",
+      "description": "Remind users to reassess skills periodically",
+      "events": [
+        "learning:progress",
+        "skill:practiced"
+      ],
+      "schedule": "monthly",
+      "enabled": true
+    },
+    {
+      "name": "career-milestone-tracker",
+      "description": "Track career progression and milestones",
+      "events": [
+        "career:goal-set",
+        "career:milestone-reached"
+      ],
+      "enabled": true
+    }
+  ],
+  "automation": {
+    "enable_progress_emails": true,
+    "progress_email_frequency": "weekly",
+    "enable_streak_tracking": true,
+    "enable_achievement_badges": true,
+    "enable_community_sharing": true
+  },
+  "notifications": {
+    "skill_completed": "Congratulations! You've completed {skill_name}",
+    "milestone_reached": "🎉 Career milestone: {milestone_name}",
+    "skill_reminder": "Time to practice: {skill_name}",
+    "assessment_due": "It's time for your skill assessment"
+  }
+}

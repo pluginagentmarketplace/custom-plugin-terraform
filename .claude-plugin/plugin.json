@@ -1,0 +1,211 @@
+{
+  "name": "Developer Roadmap Pro",
+  "version": "1.0.0",
+  "description": "Ultimate learning platform with 65+ specialized learning paths for developers. Master 21 technologies across 7 specialization tracks with AI-powered guidance.",
+  "author": "Plugin Agent Marketplace",
+  "license": "MIT",
+  "repository": "https://github.com/pluginagentmarketplace/developer-roadmap-plugin",
+  "keywords": [
+    "learning",
+    "roadmap",
+    "development",
+    "career",
+    "guidance",
+    "skills",
+    "developer-paths",
+    "training"
+  ],
+  "agents": [
+    {
+      "id": "frontend-specialist",
+      "name": "Frontend Development Specialist",
+      "file": "agents/01-frontend-specialist.md",
+      "description": "Expert in HTML, CSS, JavaScript, React, Vue and modern frontend frameworks"
+    },
+    {
+      "id": "backend-specialist",
+      "name": "Backend Development Specialist",
+      "file": "agents/02-backend-specialist.md",
+      "description": "Specialized in Node.js, Python, API development and backend architecture"
+    },
+    {
+      "id": "devops-specialist",
+      "name": "DevOps & Infrastructure Specialist",
+      "file": "agents/03-devops-specialist.md",
+      "description": "Expert in Docker, Kubernetes, CI/CD, and infrastructure automation"
+    },
+    {
+      "id": "cloud-specialist",
+      "name": "Cloud & System Design Specialist",
+      "file": "agents/04-cloud-specialist.md",
+      "description": "Specialized in AWS, Terraform, system design and distributed systems"
+    },
+    {
+      "id": "database-specialist",
+      "name": "Database & Data Engineering Specialist",
+      "file": "agents/05-database-specialist.md",
+      "description": "Expert in databases, data engineering, SQL and data warehousing"
+    },
+    {
+      "id": "mobile-specialist",
+      "name": "Mobile Development Specialist",
+      "file": "agents/06-mobile-specialist.md",
+      "description": "Specialized in iOS, Android, React Native, Flutter and mobile optimization"
+    },
+    {
+      "id": "leadership-specialist",
+      "name": "Engineering Leadership Specialist",
+      "file": "agents/07-leadership-specialist.md",
+      "description": "Expert in engineering management, team leadership, QA strategy and product management"
+    }
+  ],
+  "commands": [
+    {
+      "id": "learn",
+      "name": "learn",
+      "file": "commands/learn.md",
+      "description": "Start your personalized learning journey"
+    },
+    {
+      "id": "roadmap-explorer",
+      "name": "roadmap-explorer",
+      "file": "commands/roadmap-explorer.md",
+      "description": "Explore all 65+ developer roadmaps"
+    },
+    {
+      "id": "skill-assessment",
+      "name": "skill-assessment",
+      "file": "commands/skill-assessment.md",
+      "description": "Assess your current skills and identify gaps"
+    },
+    {
+      "id": "career-path",
+      "name": "career-path",
+      "file": "commands/career-path.md",
+      "description": "Design your personalized career advancement strategy"
+    },
+    {
+      "id": "mentor",
+      "name": "mentor",
+      "file": "commands/mentor.md",
+      "description": "Get AI-powered mentoring on specific topics"
+    }
+  ],
+  "skills": [
+    {
+      "id": "frontend-framework-fundamentals",
+      "file": "skills/frontend/SKILL.md"
+    },
+    {
+      "id": "react-ecosystem",
+      "file": "skills/frontend/react-SKILL.md"
+    },
+    {
+      "id": "vue-ecosystem",
+      "file": "skills/frontend/vue-SKILL.md"
+    },
+    {
+      "id": "backend-fundamentals",
+      "file": "skills/backend/SKILL.md"
+    },
+    {
+      "id": "nodejs-mastery",
+      "file": "skills/backend/nodejs-SKILL.md"
+    },
+    {
+      "id": "python-development",
+      "file": "skills/backend/python-SKILL.md"
+    },
+    {
+      "id": "devops-fundamentals",
+      "file": "skills/devops/SKILL.md"
+    },
+    {
+      "id": "docker-containers",
+      "file": "skills/devops/docker-SKILL.md"
+    },
+    {
+      "id": "kubernetes-orchestration",
+      "file": "skills/devops/kubernetes-SKILL.md"
+    },
+    {
+      "id": "cloud-services",
+      "file": "skills/cloud/SKILL.md"
+    },
+    {
+      "id": "aws-mastery",
+      "file": "skills/cloud/aws-SKILL.md"
+    },
+    {
+      "id": "terraform-iac",
+      "file": "skills/cloud/terraform-SKILL.md"
+    },
+    {
+      "id": "system-design",
+      "file": "skills/cloud/system-design-SKILL.md"
+    },
+    {
+      "id": "database-design",
+      "file": "skills/databases/SKILL.md"
+    },
+    {
+      "id": "data-engineering",
+      "file": "skills/databases/data-engineering-SKILL.md"
+    },
+    {
+      "id": "sql-mastery",
+      "file": "skills/databases/sql-SKILL.md"
+    },
+    {
+      "id": "mobile-development",
+      "file": "skills/mobile/SKILL.md"
+    },
+    {
+      "id": "react-native-cross-platform",
+      "file": "skills/mobile/react-native-SKILL.md"
+    },
+    {
+      "id": "flutter-cross-platform",
+      "file": "skills/mobile/flutter-SKILL.md"
+    },
+    {
+      "id": "engineering-leadership",
+      "file": "skills/leadership/SKILL.md"
+    },
+    {
+      "id": "qa-strategy",
+      "file": "skills/leadership/qa-SKILL.md"
+    }
+  ],
+  "commands_reference": {
+    "/learn": "Start personalized learning path",
+    "/roadmap-explorer": "Browse all 65+ roadmaps",
+    "/skill-assessment": "Evaluate your skills",
+    "/career-path": "Plan your career",
+    "/mentor": "AI-powered mentoring"
+  },
+  "categories": [
+    "learning",
+    "career-development",
+    "technical-skills",
+    "leadership"
+  ],
+  "tags": [
+    "developer-roadmap",
+    "learning-platform",
+    "career-guidance",
+    "skill-development",
+    "ai-mentor",
+    "65-plus-roadmaps",
+    "21-technology-areas"
+  ],
+  "metadata": {
+    "total_roadmaps": 65,
+    "specialized_areas": 7,
+    "skill_areas": 21,
+    "estimated_learning_hours": 2000,
+    "community_size": 2100000,
+    "github_stars": 224000,
+    "market_focus": "Professional developer upskilling and career advancement"
+  }
+}
