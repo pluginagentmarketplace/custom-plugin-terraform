@@ -1,148 +1,143 @@
 {
-  "name": "Terraform Custom Plugins & Modules Pro",
+  "name": "Developer Roadmap Pro",
   "version": "1.0.0",
-  "description": "Master Terraform custom provider development, module design, HCL language, and production-grade infrastructure-as-code. Build enterprise-grade Terraform plugins and reusable modules.",
+  "description": "Master 65+ developer roadmaps across 7 specializations. Learn programming fundamentals, database design, API development, system architecture, caching/performance, DevOps, and testing/security with expert agents and curated learning paths.",
   "author": "Plugin Agent Marketplace",
   "license": "MIT",
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-terraform",
   "keywords": [
-    "terraform",
-    "infrastructure-as-code",
-    "custom-providers",
-    "modules",
-    "HCL",
-    "plugin-development",
-    "aws",
+    "developer-roadmap",
+    "learning-platform",
+    "programming",
     "infrastructure",
-    "iac-best-practices",
-    "devops"
+    "devops",
+    "system-design",
+    "career-guidance",
+    "skill-development"
   ],
   "agents": [
     {
-      "id": "terraform-fundamentals",
-      "name": "Terraform Fundamentals Specialist",
-      "file": "agents/01-terraform-fundamentals.md",
-      "description": "Master Terraform core concepts, HCL language, state management, and best practices"
+      "id": "programming-fundamentals",
+      "name": "Programming Fundamentals Specialist",
+      "file": "agents/01-programming-fundamentals.md",
+      "description": "Master programming languages, core concepts, algorithms, and best practices across multiple languages"
     },
     {
-      "id": "custom-provider-developer",
-      "name": "Custom Provider Development Specialist",
-      "file": "agents/02-provider-development.md",
-      "description": "Expert in Terraform provider development, SDK usage, and building custom providers"
+      "id": "database-management",
+      "name": "Database Management Specialist",
+      "file": "agents/02-database-management.md",
+      "description": "Expert in database design, SQL optimization, NoSQL, and data modeling"
     },
     {
-      "id": "module-architect",
-      "name": "Module Architecture Specialist",
-      "file": "agents/03-module-architect.md",
-      "description": "Specialized in designing reusable, production-grade Terraform modules"
+      "id": "api-development",
+      "name": "API Development Specialist",
+      "file": "agents/03-api-development.md",
+      "description": "Specialized in REST API design, GraphQL, API security, and backend integration"
     },
     {
-      "id": "hcl-language-expert",
-      "name": "HCL & Terraform Language Specialist",
-      "file": "agents/04-hcl-language.md",
-      "description": "Deep expertise in HCL syntax, advanced patterns, and Terraform DSL"
+      "id": "architecture-patterns",
+      "name": "Architecture & Design Patterns Specialist",
+      "file": "agents/04-architecture-patterns.md",
+      "description": "Expert in system architecture, design patterns, microservices, and scalable systems"
     },
     {
-      "id": "operations-specialist",
-      "name": "Production Terraform Operations Specialist",
-      "file": "agents/05-operations.md",
-      "description": "Expert in terraform operations, state management, scaling, and enterprise patterns"
+      "id": "caching-performance",
+      "name": "Caching & Performance Specialist",
+      "file": "agents/05-caching-performance.md",
+      "description": "Master performance optimization, caching strategies, and system scalability"
+    },
+    {
+      "id": "devops-infrastructure",
+      "name": "DevOps & Infrastructure Specialist",
+      "file": "agents/06-devops-infrastructure.md",
+      "description": "Expert in DevOps, CI/CD, containerization, cloud infrastructure, and deployment"
+    },
+    {
+      "id": "testing-security",
+      "name": "Testing, Security & Monitoring Specialist",
+      "file": "agents/07-testing-security.md",
+      "description": "Specialized in testing strategies, security best practices, and system monitoring"
     }
   ],
   "commands": [
     {
-      "id": "terraform-learn",
-      "name": "terraform-learn",
-      "file": "commands/terraform-learn.md",
-      "description": "Structured Terraform learning path from basics to advanced"
+      "id": "learn",
+      "name": "learn",
+      "file": "commands/learn.md",
+      "description": "Choose your learning path and get started"
     },
     {
-      "id": "module-builder",
-      "name": "module-builder",
-      "file": "commands/module-builder.md",
-      "description": "Step-by-step guide to building production-grade Terraform modules"
+      "id": "browse-agent",
+      "name": "browse-agent",
+      "file": "commands/browse-agent.md",
+      "description": "Explore all 7 specialist agents and their expertise"
     },
     {
-      "id": "provider-dev",
-      "name": "provider-dev",
-      "file": "commands/provider-dev.md",
-      "description": "Custom Terraform provider development guide"
+      "id": "assess",
+      "name": "assess",
+      "file": "commands/assess.md",
+      "description": "Assess your current knowledge and get recommendations"
     },
     {
-      "id": "terraform-mentor",
-      "name": "terraform-mentor",
-      "file": "commands/terraform-mentor.md",
-      "description": "Expert guidance on Terraform architecture and complex topics"
-    },
-    {
-      "id": "best-practices",
-      "name": "best-practices",
-      "file": "commands/best-practices.md",
-      "description": "Terraform production best practices and optimization patterns"
+      "id": "projects",
+      "name": "projects",
+      "file": "commands/projects.md",
+      "description": "Browse 50+ hands-on projects across all levels"
     }
   ],
   "skills": [
     {
-      "id": "terraform-core-fundamentals",
-      "file": "skills/terraform-core/SKILL.md"
+      "id": "programming-languages",
+      "file": "skills/programming-languages/SKILL.md"
     },
     {
-      "id": "hcl-language",
-      "file": "skills/terraform-core/hcl-SKILL.md"
+      "id": "databases",
+      "file": "skills/databases/SKILL.md"
     },
     {
-      "id": "state-management",
-      "file": "skills/terraform-core/state-SKILL.md"
+      "id": "api-design",
+      "file": "skills/api-design/SKILL.md"
     },
     {
-      "id": "terraform-modules",
-      "file": "skills/module-design/SKILL.md"
+      "id": "system-architecture",
+      "file": "skills/architecture/SKILL.md"
     },
     {
-      "id": "module-registry",
-      "file": "skills/module-design/registry-SKILL.md"
+      "id": "performance-optimization",
+      "file": "skills/performance/SKILL.md"
     },
     {
-      "id": "provider-sdk",
-      "file": "skills/provider-dev/SKILL.md"
+      "id": "devops-infrastructure",
+      "file": "skills/devops/SKILL.md"
     },
     {
-      "id": "provider-testing",
-      "file": "skills/provider-dev/testing-SKILL.md"
-    },
-    {
-      "id": "terraform-operations",
-      "file": "skills/operations/SKILL.md"
-    },
-    {
-      "id": "terraform-scaling",
-      "file": "skills/operations/scaling-SKILL.md"
+      "id": "security-testing",
+      "file": "skills/security/SKILL.md"
     }
   ],
   "categories": [
-    "infrastructure",
-    "infrastructure-as-code",
-    "devops",
-    "terraform",
-    "cloud"
+    "learning",
+    "developer-education",
+    "career-guidance",
+    "technical-skills"
   ],
   "tags": [
-    "terraform",
-    "iac",
-    "custom-provider",
-    "modules",
-    "hcl",
-    "aws",
-    "cloud-infrastructure",
-    "plugin-development",
-    "enterprise-terraform"
+    "roadmap",
+    "learning-platform",
+    "development",
+    "career",
+    "skills",
+    "infrastructure",
+    "devops",
+    "programming"
   ],
   "metadata": {
-    "focus_area": "Terraform & Infrastructure as Code",
-    "target_audience": "Infrastructure engineers, DevOps, Platform engineers",
-    "skill_levels": ["Intermediate", "Advanced", "Expert"],
-    "estimated_learning_hours": 150,
-    "practical_projects": 15,
-    "provider_platforms": ["AWS", "GCP", "Azure", "Custom"]
+    "total_roadmaps": 65,
+    "specialist_agents": 7,
+    "skill_areas": 7,
+    "learning_hours": 500,
+    "practice_projects": 50,
+    "community_users": 2100000,
+    "github_stars": 224000
   }
 }

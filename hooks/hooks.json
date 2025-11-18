@@ -1,63 +1,41 @@
 {
   "hooks": [
     {
-      "name": "deployment-validator",
-      "description": "Validate Terraform configuration before deployment",
-      "events": [
-        "terraform:plan",
-        "terraform:apply"
-      ],
+      "name": "learning-progress-tracker",
+      "description": "Track user learning progress and completed skills",
+      "events": ["skill:completed", "project:finished"],
       "enabled": true
     },
     {
-      "name": "state-safety-checker",
-      "description": "Verify state management safety practices",
-      "events": [
-        "state:init",
-        "state:modify"
-      ],
+      "name": "project-validator",
+      "description": "Validate project submissions and provide feedback",
+      "events": ["project:submit"],
       "enabled": true
     },
     {
-      "name": "module-quality-check",
-      "description": "Check module quality and best practices",
-      "events": [
-        "module:create",
-        "module:publish"
-      ],
+      "name": "skill-assessment-reminder",
+      "description": "Remind users to reassess skills periodically",
+      "events": ["learning:milestone"],
+      "schedule": "monthly",
       "enabled": true
     },
     {
-      "name": "provider-test-reminder",
-      "description": "Remind about testing custom providers",
-      "events": [
-        "provider:develop",
-        "provider:resource-add"
-      ],
-      "enabled": true
-    },
-    {
-      "name": "best-practices-monitor",
-      "description": "Monitor adherence to Terraform best practices",
-      "events": [
-        "code:commit",
-        "terraform:init"
-      ],
+      "name": "prerequisite-checker",
+      "description": "Check prerequisites before advancing to next level",
+      "events": ["level:attempt"],
       "enabled": true
     }
   ],
   "automation": {
-    "enable_plan_validation": true,
-    "enable_state_safety_checks": true,
-    "enable_module_testing": true,
-    "enable_provider_testing": true,
-    "enable_best_practices_check": true
+    "enable_progress_tracking": true,
+    "enable_project_validation": true,
+    "enable_skill_recommendations": true,
+    "enable_milestone_badges": true
   },
   "notifications": {
-    "deployment_ready": "✅ Terraform plan validated and ready for review",
-    "state_safety": "🔒 State management follows best practices",
-    "module_quality": "📦 Module {module_name} passes quality checks",
-    "provider_testing": "🧪 Custom provider {provider_name} needs testing",
-    "best_practices_warning": "⚠️ {issue} - Review best practices guide"
+    "skill_completed": "🎉 Skill completed: {skill_name}",
+    "project_finished": "✅ Project finished: {project_name}",
+    "milestone_reached": "🏆 Milestone: {milestone}",
+    "assessment_reminder": "📊 Time to reassess your skills"
   }
 }

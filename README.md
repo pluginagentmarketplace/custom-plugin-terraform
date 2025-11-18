@@ -1,33 +1,34 @@
-# Terraform Custom Plugins & Modules Pro
+# Developer Roadmap Pro - Claude Code Plugin
 
-🎯 **Master Terraform infrastructure-as-code, custom provider development, and production-grade module design**
+🎓 **Master 65+ developer roadmaps with AI-powered guidance**
 
-Build enterprise-grade Terraform solutions with expert guidance on HCL language, state management, module architecture, and custom provider development.
+Learn programming fundamentals, database design, API development, system architecture, caching/performance, DevOps, and security. Get expert guidance from 7 specialized agents.
 
 ## ✨ Features
 
-### 🎯 5 Expert Agents
-Each specialized in their Terraform domain:
-- **Terraform Fundamentals Specialist** - Core concepts, HCL, state management
-- **Custom Provider Developer** - Provider SDK, resource implementation, testing
-- **Module Architect** - Reusable modules, design patterns, best practices
-- **HCL Language Expert** - Advanced expressions, dynamic blocks, transformations
-- **Operations Specialist** - Production deployment, scaling, disaster recovery
+### 🎯 7 Expert Agents
+- **Programming Fundamentals** - Languages, algorithms, best practices
+- **Database Management** - Design, SQL, NoSQL, optimization
+- **API Development** - REST, GraphQL, security, documentation
+- **Architecture & Patterns** - System design, microservices, scalability
+- **Caching & Performance** - Optimization, profiling, scaling
+- **DevOps & Infrastructure** - Docker, Kubernetes, CI/CD, cloud
+- **Testing & Security** - Testing strategies, security best practices, monitoring
 
-### 📚 9 Comprehensive Skills
-Detailed coverage of Terraform ecosystem:
-- Terraform Core Fundamentals
-- HCL Language Mastery
-- State Management
-- Module Design & Development
-- Module Registry & Publishing
-- Provider SDK Development
-- Provider Testing & Quality
-- Operations at Scale
-- Enterprise Scaling Patterns
+### 📚 7 Core Skills
+- Programming Languages
+- Database Design & SQL
+- API Design & Development
+- System Architecture
+- Performance Optimization
+- DevOps & Infrastructure
+- Security & Testing
 
-### 💻 5 Focused Commands
-`/terraform-learn`, `/module-builder`, `/provider-dev`, `/terraform-mentor`, `/best-practices`
+### 💻 4 Slash Commands
+- `/learn` - Start your personalized learning path
+- `/browse-agent` - Explore all 7 specialist agents
+- `/assess` - Assess your skills and get recommendations
+- `/projects` - Browse 50+ hands-on projects
 
 ## 🚀 Quick Start
 
@@ -35,32 +36,61 @@ Detailed coverage of Terraform ecosystem:
 # Load in Claude Code
 plugin add ./custom-plugin-terraform
 
-# Start learning Terraform
-/terraform-learn
+# Start learning
+/learn
 
-# Get expert mentoring
-/terraform-mentor
+# Explore agents
+/browse-agent
 
-# Build production modules
-/module-builder
+# Assess your skills
+/assess
 
-# Develop custom providers
-/provider-dev
-
-# Learn best practices
-/best-practices
+# Find projects
+/projects
 ```
 
-## 📊 Plugin Metrics
+## 📊 By The Numbers
 
 | Metric | Value |
 |--------|-------|
-| Expert Agents | 5 |
-| Comprehensive Skills | 9 |
-| Learning Hours | 150+ |
-| Practical Projects | 15 |
-| Provider Platforms | AWS, GCP, Azure, Custom |
+| Developer Roadmaps | 65+ |
+| Specialist Agents | 7 |
+| Core Skills | 7 |
+| Hands-on Projects | 50+ |
+| Learning Hours | 500+ |
+| Community Users | 2.1M+ |
+| GitHub Stars | 224K+ |
+
+## 🎓 Learning Paths
+
+### Beginner (0-6 months)
+Master fundamentals: Pick a language, learn databases, understand web basics
+
+### Intermediate (6-12 months)
+Build skills: APIs, system design, DevOps basics
+
+### Advanced (12+ months)
+Specialize: Caching, distributed systems, security, infrastructure
+
+## 📖 How It Works
+
+1. **Assess** your current knowledge with `/assess`
+2. **Choose** a learning path with `/learn`
+3. **Build** projects with guidance from agents
+4. **Master** skills and progress through levels
+5. **Specialize** in your chosen area
+
+## 🤝 Get Help
+
+- Use `/learn` for structured guidance
+- Ask agents specific questions
+- Use `/projects` for hands-on practice
+- Use `/assess` to track progress
+
+## 📝 Based On
+
+This plugin is powered by [developer-roadmap.sh](https://roadmap.sh) with 2.1M+ users and 224K+ GitHub stars.
 
 ---
 
-**Ready to master Terraform? Start with `/terraform-learn` now!** 🚀
+**Ready to master software development? Start with `/learn` now!** 🚀
