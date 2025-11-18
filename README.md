@@ -1,59 +1,66 @@
-# Developer Roadmap Pro - Claude Code Plugin
+# Terraform Custom Plugins & Modules Pro
 
-🚀 **Ultimate learning platform with 65+ specialized learning paths for developers**
+🎯 **Master Terraform infrastructure-as-code, custom provider development, and production-grade module design**
 
-Master 21 technologies across 7 specialization tracks with AI-powered guidance. Transform your career with personalized learning journeys, expert mentoring, and strategic career planning.
+Build enterprise-grade Terraform solutions with expert guidance on HCL language, state management, module architecture, and custom provider development.
 
 ## ✨ Features
 
-### 🎯 7 Specialized Agents
-Each agent is an expert in their domain:
-- 🎨 **Frontend Specialist** - HTML, CSS, JavaScript, React, Vue
-- 🖥️ **Backend Specialist** - Node.js, Python, API Design
-- 🚀 **DevOps Specialist** - Docker, Kubernetes, CI/CD
-- ☁️ **Cloud Specialist** - AWS, Terraform, System Design
-- 📊 **Database Specialist** - SQL, Data Engineering, Warehousing
-- 📱 **Mobile Specialist** - iOS, Android, React Native, Flutter
-- 👔 **Leadership Specialist** - Engineering Management, QA, Product
+### 🎯 5 Expert Agents
+Each specialized in their Terraform domain:
+- **Terraform Fundamentals Specialist** - Core concepts, HCL, state management
+- **Custom Provider Developer** - Provider SDK, resource implementation, testing
+- **Module Architect** - Reusable modules, design patterns, best practices
+- **HCL Language Expert** - Advanced expressions, dynamic blocks, transformations
+- **Operations Specialist** - Production deployment, scaling, disaster recovery
 
-### 📚 21 Advanced Skills
-Comprehensive coverage of modern development technologies
+### 📚 9 Comprehensive Skills
+Detailed coverage of Terraform ecosystem:
+- Terraform Core Fundamentals
+- HCL Language Mastery
+- State Management
+- Module Design & Development
+- Module Registry & Publishing
+- Provider SDK Development
+- Provider Testing & Quality
+- Operations at Scale
+- Enterprise Scaling Patterns
 
-### 💻 5 Powerful Commands
-`/learn`, `/roadmap-explorer`, `/skill-assessment`, `/career-path`, `/mentor`
+### 💻 5 Focused Commands
+`/terraform-learn`, `/module-builder`, `/provider-dev`, `/terraform-mentor`, `/best-practices`
 
 ## 🚀 Quick Start
 
 ```bash
 # Load in Claude Code
-/load ./developer-roadmap-plugin
+plugin add ./custom-plugin-terraform
 
-# Start learning
-/learn
+# Start learning Terraform
+/terraform-learn
 
-# Get mentoring
-/mentor
+# Get expert mentoring
+/terraform-mentor
 
-# Explore all 65+ roadmaps
-/roadmap-explorer
+# Build production modules
+/module-builder
 
-# Plan your career
-/career-path
+# Develop custom providers
+/provider-dev
 
-# Assess your skills
-/skill-assessment
+# Learn best practices
+/best-practices
 ```
 
-## 📊 Statistics
+## 📊 Plugin Metrics
 
 | Metric | Value |
 |--------|-------|
-| Total Roadmaps | 65+ |
-| Specializations | 7 |
-| Skills Covered | 21 |
-| Practice Projects | 1000+ |
-| Learning Hours | 2000+ |
+| Expert Agents | 5 |
+| Comprehensive Skills | 9 |
+| Learning Hours | 150+ |
+| Practical Projects | 15 |
+| Provider Platforms | AWS, GCP, Azure, Custom |
 
 ---
 
-**Ready to transform your career? Start with `/learn` now!** 🎉
+**Ready to master Terraform? Start with `/terraform-learn` now!** 🚀

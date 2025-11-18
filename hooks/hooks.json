@@ -1,63 +1,63 @@
 {
   "hooks": [
     {
-      "name": "progress-tracker",
-      "description": "Track user learning progress and save milestones",
+      "name": "deployment-validator",
+      "description": "Validate Terraform configuration before deployment",
       "events": [
-        "skill:completed",
-        "project:finished",
-        "level:advanced"
+        "terraform:plan",
+        "terraform:apply"
       ],
       "enabled": true
     },
     {
-      "name": "skill-validator",
-      "description": "Validate skill requirements before advancing",
+      "name": "state-safety-checker",
+      "description": "Verify state management safety practices",
       "events": [
-        "roadmap:start",
-        "skill:attempt"
+        "state:init",
+        "state:modify"
       ],
       "enabled": true
     },
     {
-      "name": "project-checker",
-      "description": "Verify project completion with checklist",
+      "name": "module-quality-check",
+      "description": "Check module quality and best practices",
       "events": [
-        "project:submit"
+        "module:create",
+        "module:publish"
       ],
       "enabled": true
     },
     {
-      "name": "assessment-reminder",
-      "description": "Remind users to reassess skills periodically",
+      "name": "provider-test-reminder",
+      "description": "Remind about testing custom providers",
       "events": [
-        "learning:progress",
-        "skill:practiced"
+        "provider:develop",
+        "provider:resource-add"
       ],
-      "schedule": "monthly",
       "enabled": true
     },
     {
-      "name": "career-milestone-tracker",
-      "description": "Track career progression and milestones",
+      "name": "best-practices-monitor",
+      "description": "Monitor adherence to Terraform best practices",
       "events": [
-        "career:goal-set",
-        "career:milestone-reached"
+        "code:commit",
+        "terraform:init"
       ],
       "enabled": true
     }
   ],
   "automation": {
-    "enable_progress_emails": true,
-    "progress_email_frequency": "weekly",
-    "enable_streak_tracking": true,
-    "enable_achievement_badges": true,
-    "enable_community_sharing": true
+    "enable_plan_validation": true,
+    "enable_state_safety_checks": true,
+    "enable_module_testing": true,
+    "enable_provider_testing": true,
+    "enable_best_practices_check": true
   },
   "notifications": {
-    "skill_completed": "Congratulations! You've completed {skill_name}",
-    "milestone_reached": "🎉 Career milestone: {milestone_name}",
-    "skill_reminder": "Time to practice: {skill_name}",
-    "assessment_due": "It's time for your skill assessment"
+    "deployment_ready": "✅ Terraform plan validated and ready for review",
+    "state_safety": "🔒 State management follows best practices",
+    "module_quality": "📦 Module {module_name} passes quality checks",
+    "provider_testing": "🧪 Custom provider {provider_name} needs testing",
+    "best_practices_warning": "⚠️ {issue} - Review best practices guide"
   }
 }
