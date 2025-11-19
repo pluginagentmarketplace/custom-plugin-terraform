@@ -1,0 +1,143 @@
+{
+  "name": "Developer Roadmap Pro",
+  "version": "1.0.0",
+  "description": "Master 65+ developer roadmaps across 7 specializations. Learn programming fundamentals, database design, API development, system architecture, caching/performance, DevOps, and testing/security with expert agents and curated learning paths.",
+  "author": "Plugin Agent Marketplace",
+  "license": "MIT",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-terraform",
+  "keywords": [
+    "developer-roadmap",
+    "learning-platform",
+    "programming",
+    "infrastructure",
+    "devops",
+    "system-design",
+    "career-guidance",
+    "skill-development"
+  ],
+  "agents": [
+    {
+      "id": "programming-fundamentals",
+      "name": "Programming Fundamentals Specialist",
+      "file": "agents/01-programming-fundamentals.md",
+      "description": "Master programming languages, core concepts, algorithms, and best practices across multiple languages"
+    },
+    {
+      "id": "database-management",
+      "name": "Database Management Specialist",
+      "file": "agents/02-database-management.md",
+      "description": "Expert in database design, SQL optimization, NoSQL, and data modeling"
+    },
+    {
+      "id": "api-development",
+      "name": "API Development Specialist",
+      "file": "agents/03-api-development.md",
+      "description": "Specialized in REST API design, GraphQL, API security, and backend integration"
+    },
+    {
+      "id": "architecture-patterns",
+      "name": "Architecture & Design Patterns Specialist",
+      "file": "agents/04-architecture-patterns.md",
+      "description": "Expert in system architecture, design patterns, microservices, and scalable systems"
+    },
+    {
+      "id": "caching-performance",
+      "name": "Caching & Performance Specialist",
+      "file": "agents/05-caching-performance.md",
+      "description": "Master performance optimization, caching strategies, and system scalability"
+    },
+    {
+      "id": "devops-infrastructure",
+      "name": "DevOps & Infrastructure Specialist",
+      "file": "agents/06-devops-infrastructure.md",
+      "description": "Expert in DevOps, CI/CD, containerization, cloud infrastructure, and deployment"
+    },
+    {
+      "id": "testing-security",
+      "name": "Testing, Security & Monitoring Specialist",
+      "file": "agents/07-testing-security.md",
+      "description": "Specialized in testing strategies, security best practices, and system monitoring"
+    }
+  ],
+  "commands": [
+    {
+      "id": "learn",
+      "name": "learn",
+      "file": "commands/learn.md",
+      "description": "Choose your learning path and get started"
+    },
+    {
+      "id": "browse-agent",
+      "name": "browse-agent",
+      "file": "commands/browse-agent.md",
+      "description": "Explore all 7 specialist agents and their expertise"
+    },
+    {
+      "id": "assess",
+      "name": "assess",
+      "file": "commands/assess.md",
+      "description": "Assess your current knowledge and get recommendations"
+    },
+    {
+      "id": "projects",
+      "name": "projects",
+      "file": "commands/projects.md",
+      "description": "Browse 50+ hands-on projects across all levels"
+    }
+  ],
+  "skills": [
+    {
+      "id": "programming-languages",
+      "file": "skills/programming-languages/SKILL.md"
+    },
+    {
+      "id": "databases",
+      "file": "skills/databases/SKILL.md"
+    },
+    {
+      "id": "api-design",
+      "file": "skills/api-design/SKILL.md"
+    },
+    {
+      "id": "system-architecture",
+      "file": "skills/architecture/SKILL.md"
+    },
+    {
+      "id": "performance-optimization",
+      "file": "skills/performance/SKILL.md"
+    },
+    {
+      "id": "devops-infrastructure",
+      "file": "skills/devops/SKILL.md"
+    },
+    {
+      "id": "security-testing",
+      "file": "skills/security/SKILL.md"
+    }
+  ],
+  "categories": [
+    "learning",
+    "developer-education",
+    "career-guidance",
+    "technical-skills"
+  ],
+  "tags": [
+    "roadmap",
+    "learning-platform",
+    "development",
+    "career",
+    "skills",
+    "infrastructure",
+    "devops",
+    "programming"
+  ],
+  "metadata": {
+    "total_roadmaps": 65,
+    "specialist_agents": 7,
+    "skill_areas": 7,
+    "learning_hours": 500,
+    "practice_projects": 50,
+    "community_users": 2100000,
+    "github_stars": 224000
+  }
+}
