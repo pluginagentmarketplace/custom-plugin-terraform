@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "name": "terraform-development-assistant",
   "version": "2.0.0",
-  "description": "Comprehensive Terraform IaC plugin with 8 specialized agents and 12 Golden Format skills for infrastructure as code",
+  "description": "Terraform IaC plugin with specialized agents for providers, modules, state management, and cloud infrastructure",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
@@ -21,28 +21,22 @@
     "provisioning"
   ],
   "agents": [
-    "./agents/01-tf-fundamentals.md",
-    "./agents/02-tf-providers.md",
-    "./agents/03-tf-resources.md",
-    "./agents/04-tf-state.md",
-    "./agents/05-tf-modules.md",
-    "./agents/06-tf-workspaces.md",
-    "./agents/07-tf-cloud.md",
-    "./agents/08-tf-advanced.md"
+    "./agents/01-terraform-fundamentals.md",
+    "./agents/02-terraform-modules.md",
+    "./agents/03-terraform-state.md",
+    "./agents/04-terraform-aws.md",
+    "./agents/05-terraform-azure.md",
+    "./agents/06-terraform-security.md",
+    "./agents/07-terraform-cicd.md"
   ],
   "skills": [
-    "./skills/tf-basics/SKILL.md",
-    "./skills/tf-hcl/SKILL.md",
-    "./skills/tf-providers/SKILL.md",
-    "./skills/tf-resources/SKILL.md",
-    "./skills/tf-variables/SKILL.md",
-    "./skills/tf-outputs/SKILL.md",
-    "./skills/tf-state/SKILL.md",
-    "./skills/tf-modules/SKILL.md",
-    "./skills/tf-functions/SKILL.md",
-    "./skills/tf-provisioners/SKILL.md",
-    "./skills/tf-cloud/SKILL.md",
-    "./skills/tf-best-practices/SKILL.md"
+    "./skills/terraform-fundamentals/SKILL.md",
+    "./skills/terraform-modules/SKILL.md",
+    "./skills/terraform-state/SKILL.md",
+    "./skills/terraform-aws/SKILL.md",
+    "./skills/terraform-azure/SKILL.md",
+    "./skills/terraform-security/SKILL.md",
+    "./skills/terraform-cicd/SKILL.md"
   ],
   "commands": [
     "./commands/tf-check.md",
