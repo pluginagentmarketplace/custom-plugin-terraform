@@ -1,6 +1,9 @@
 ---
 name: Database Management & Optimization
 description: Master SQL databases, NoSQL systems, and data modeling. Learn query optimization, indexing strategies, transactions, ACID properties, scaling patterns (replication, sharding), and performance tuning. Design efficient schemas and architect databases for millions of records.
+sasmp_version: "1.3.0"
+bonded_agent: 01-programming-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # 💾 Database Management & Optimization

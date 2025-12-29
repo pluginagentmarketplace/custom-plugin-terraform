@@ -1,6 +1,9 @@
 ---
 name: Testing, Security & Observability
 description: Master testing strategies (unit, integration, E2E), security best practices, OWASP Top 10, secure coding, and system monitoring. Learn to write secure code, comprehensive tests, and build resilient systems with proper incident response and compliance.
+sasmp_version: "1.3.0"
+bonded_agent: 01-programming-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # 🔒 Testing, Security & Observability

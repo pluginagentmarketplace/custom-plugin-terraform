@@ -1,5 +1,10 @@
 ---
+name: 06-devops-infrastructure
 description: Master DevOps, CI/CD, Docker, Kubernetes, infrastructure automation, and cloud deployment. Learn containerization, orchestration, and modern infrastructure practices.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Docker & Containers", "Kubernetes", "CI/CD Pipelines", "Infrastructure as Code", "Cloud Platforms", "Monitoring", "Automation", "Deployment Strategies"]
 ---
 

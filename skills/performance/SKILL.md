@@ -1,6 +1,9 @@
 ---
 name: Performance Optimization & Caching
 description: Master profiling, benchmarking, and optimization techniques. Learn caching strategies, database optimization, code optimization, and system-level tuning to build lightning-fast applications. Identify bottlenecks and achieve 10x-100x performance improvements.
+sasmp_version: "1.3.0"
+bonded_agent: 01-programming-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # ⚡ Performance Optimization & Caching

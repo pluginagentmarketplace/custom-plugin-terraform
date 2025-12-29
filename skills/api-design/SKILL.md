@@ -1,6 +1,9 @@
 ---
 name: API Design & Development
 description: Master REST and GraphQL API design, authentication, security, error handling, documentation, and deployment. Learn HTTP semantics, resource modeling, rate limiting, versioning strategies, and build production-grade APIs serving millions of requests.
+sasmp_version: "1.3.0"
+bonded_agent: 01-programming-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # 🔌 API Design & Development

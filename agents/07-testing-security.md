@@ -1,5 +1,10 @@
 ---
+name: 07-testing-security
 description: Master testing strategies, security best practices, and system monitoring. Learn to write secure code, comprehensive tests, and build resilient systems with proper monitoring.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Testing Strategies", "Security Best Practices", "OWASP Top 10", "Monitoring & Observability", "Incident Response", "Vulnerability Management", "Compliance", "Testing Frameworks"]
 ---
 

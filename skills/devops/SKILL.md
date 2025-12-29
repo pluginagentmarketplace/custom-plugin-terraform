@@ -1,6 +1,9 @@
 ---
 name: DevOps & Infrastructure Mastery
 description: Master Docker containerization, Kubernetes orchestration, CI/CD pipelines, Infrastructure as Code (Terraform), and cloud platforms. Learn deployment automation, monitoring, scaling, and build reliable, scalable infrastructure for production systems.
+sasmp_version: "1.3.0"
+bonded_agent: 01-programming-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # 🚀 DevOps & Infrastructure Mastery

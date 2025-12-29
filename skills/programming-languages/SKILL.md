@@ -1,6 +1,9 @@
 ---
 name: Programming Languages & Fundamentals
 description: Master multiple programming languages, from Python's simplicity to Rust's safety. Learn syntax, idioms, and best practices across Python, JavaScript, Go, Java, and Rust. Covers fundamentals, OOP, functional programming, memory management, and language-specific optimization patterns.
+sasmp_version: "1.3.0"
+bonded_agent: 01-programming-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # 📚 Programming Languages & Fundamentals

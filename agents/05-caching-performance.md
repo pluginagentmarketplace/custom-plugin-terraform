@@ -1,5 +1,10 @@
 ---
+name: 05-caching-performance
 description: Master performance optimization, caching strategies, profiling, and benchmarking. Learn to identify bottlenecks and optimize systems for speed and scalability.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Performance Profiling", "Caching Strategies", "Database Optimization", "Code Optimization", "Benchmarking", "Monitoring", "Scalability", "Resource Optimization"]
 ---
 

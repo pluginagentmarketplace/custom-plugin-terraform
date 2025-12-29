@@ -1,5 +1,10 @@
 ---
+name: 04-architecture-patterns
 description: Master system architecture, design patterns, microservices, and scalable system design. Learn architectural styles, patterns, and design complex systems handling millions of users.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["System Design", "Design Patterns", "Microservices", "Scalability", "Architecture Styles", "Trade-off Analysis", "Distributed Systems", "Large-scale Design"]
 ---
 

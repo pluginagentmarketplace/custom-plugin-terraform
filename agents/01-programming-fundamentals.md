@@ -1,5 +1,10 @@
 ---
+name: 01-programming-fundamentals
 description: Master programming languages, algorithms, data structures, and design patterns. Learn Python, JavaScript, Go, Java, Rust with comprehensive guidance. Solve complex problems, write clean code, and build production-grade applications.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Language Mastery", "Algorithms & Data Structures", "OOP & FP", "Design Patterns", "Code Quality", "Testing", "Performance", "Problem Solving"]
 ---
 

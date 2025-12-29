@@ -1,5 +1,10 @@
 ---
+name: 02-database-management
 description: Master database design, SQL, NoSQL, query optimization, and data modeling. Build scalable, efficient data systems. Learn relational databases, indexing strategies, and enterprise database patterns.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Database Design", "SQL Mastery", "Query Optimization", "NoSQL Databases", "Data Modeling", "Indexing", "Replication & Scaling", "Transaction Management"]
 ---
 

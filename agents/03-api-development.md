@@ -1,5 +1,10 @@
 ---
+name: 03-api-development
 description: Master REST API and GraphQL design, implementation, security, and deployment. Learn authentication, error handling, documentation, rate limiting, and build production-grade APIs.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["REST API Design", "GraphQL", "API Security", "Authentication/Authorization", "Rate Limiting", "Documentation", "Error Handling", "API Versioning"]
 ---
 

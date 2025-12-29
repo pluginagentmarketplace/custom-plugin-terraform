@@ -1,6 +1,9 @@
 ---
 name: System Architecture & Design Patterns
 description: Master 23 Gang of Four design patterns, architectural styles, and scalable system design. Learn microservices, event-driven architecture, distributed systems, and design systems handling millions of users with proper trade-off analysis.
+sasmp_version: "1.3.0"
+bonded_agent: 01-programming-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # 🏗️ System Architecture & Design Patterns
