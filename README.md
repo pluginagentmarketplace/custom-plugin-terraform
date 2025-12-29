@@ -1,262 +1,37 @@
-<div align="center">
+# Terraform Development Assistant Plugin
 
-<!-- Animated Typing Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Terraform+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="Terraform Assistant" />
+[![SASMP v1.3.0](https://img.shields.io/badge/SASMP-v1.3.0-blue.svg)](https://github.com/pluginagentmarketplace)
+[![Terraform](https://img.shields.io/badge/Terraform-1.5+-623CE4?logo=terraform)](https://www.terraform.io)
 
-<br/>
+Comprehensive Terraform IaC plugin with 8 specialized agents and 12 Golden Format skills.
 
-<!-- Badge Row 1: Status Badges -->
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-terraform/releases)
-[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
-[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
+## Agents (8)
 
-<!-- Badge Row 2: Content Badges -->
-[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
-[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
-[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
+| Agent | Description |
+|-------|-------------|
+| tf-fundamentals | HCL and basics |
+| tf-providers | Multi-cloud providers |
+| tf-resources | Resource management |
+| tf-state | State backends |
+| tf-modules | Reusable modules |
+| tf-workspaces | Environments |
+| tf-cloud | Terraform Cloud |
+| tf-advanced | Functions and patterns |
 
-<br/>
+## Skills (12)
 
-<!-- Quick CTA Row -->
-[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-terraform)
+- Core: tf-basics, tf-hcl
+- Configuration: tf-providers, tf-resources, tf-variables, tf-outputs
+- State: tf-state, tf-modules
+- Advanced: tf-functions, tf-provisioners, tf-cloud, tf-best-practices
 
----
+## Commands (4)
 
-### What is this?
+- /tf-check - Validate configuration
+- /tf-init - Initialize directory
+- /tf-plan - Preview changes
+- /tf-apply - Apply changes
 
-> **Terraform Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for terraform development.
+## Authors
 
-</div>
-
----
-
-## 📑 Table of Contents
-
-<details>
-<summary>Click to expand</summary>
-
-- [Quick Start](#-quick-start)
-- [Features](#-features)
-- [Agents](#-agents)
-- [Skills](#-skills)
-- [Commands](#-commands)
-- [Documentation](#-documentation)
-- [Contributing](#-contributing)
-- [License](#-license)
-
-</details>
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Claude Code CLI v2.0.27+
-- Active Claude subscription
-
-### Installation (Choose One)
-
-<details open>
-<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
-
-```bash
-# Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-terraform
-
-# Step 2️⃣ Install the plugin
-/plugin install terraform-assistant@pluginagentmarketplace-terraform
-
-# Step 3️⃣ Restart Claude Code
-# Close and reopen your terminal/IDE
-```
-
-</details>
-
-<details>
-<summary><strong>Option 2: Local Installation</strong></summary>
-
-```bash
-# Clone the repository
-git clone https://github.com/pluginagentmarketplace/custom-plugin-terraform.git
-cd custom-plugin-terraform
-
-# Load locally
-/plugin load .
-
-# Restart Claude Code
-```
-
-</details>
-
-### ✅ Verify Installation
-
-After restart, you should see these agents:
-
-```
-terraform-assistant:01-programming-fundamentals
-terraform-assistant:07-testing-security
-terraform-assistant:03-api-development
-terraform-assistant:04-architecture-patterns
-terraform-assistant:02-database-management
-... and 2 more
-```
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| 🤖 **7 Agents** | Specialized AI agents for terraform tasks |
-| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
-| ⌨️ **4 Commands** | Quick slash commands |
-| 🔄 **SASMP v1.3.0** | Full protocol compliance |
-
----
-
-## 🤖 Agents
-
-### 7 Specialized Agents
-
-| # | Agent | Purpose |
-|---|-------|---------|
-| 1 | **01-programming-fundamentals** | Master programming languages, algorithms, data structures, a |
-| 2 | **07-testing-security** | Master testing strategies, security best practices, and syst |
-| 3 | **03-api-development** | Master REST API and GraphQL design, implementation, security |
-| 4 | **04-architecture-patterns** | Master system architecture, design patterns, microservices,  |
-| 5 | **02-database-management** | Master database design, SQL, NoSQL, query optimization, and  |
-| 6 | **06-devops-infrastructure** | Master DevOps, CI/CD, Docker, Kubernetes, infrastructure aut |
-| 7 | **05-caching-performance** | Master performance optimization, caching strategies, profili |
-
----
-
-## 🛠️ Skills
-
-### Available Skills
-
-| Skill | Description | Invoke |
-|-------|-------------|--------|
-| `databases` | Master SQL databases, NoSQL systems, and data modeling. Lear | `Skill("terraform-assistant:databases")` |
-| `devops` | Master Docker containerization, Kubernetes orchestration, CI | `Skill("terraform-assistant:devops")` |
-| `security` | Master testing strategies (unit, integration, E2E), security | `Skill("terraform-assistant:security")` |
-| `api-design` | Master REST and GraphQL API design, authentication, security | `Skill("terraform-assistant:api-design")` |
-| `programming-languages` | Master multiple programming languages, from Python's simplic | `Skill("terraform-assistant:programming-languages")` |
-| `architecture` | Master 23 Gang of Four design patterns, architectural styles | `Skill("terraform-assistant:architecture")` |
-| `performance` | Master profiling, benchmarking, and optimization techniques. | `Skill("terraform-assistant:performance")` |
-
----
-
-## ⌨️ Commands
-
-| Command | Description |
-|---------|-------------|
-| `/learn` | Personalized Learning Path Guide |
-| `/assess` | Skill Assessment & Level Evaluation |
-| `/browse-agent` | agent - Explore Developer Roadmap Experts |
-| `/projects` | Discover Aligned Learning Projects |
-
----
-
-## 📚 Documentation
-
-| Document | Description |
-|----------|-------------|
-| [CHANGELOG.md](CHANGELOG.md) | Version history |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
-| [LICENSE](LICENSE) | License information |
-
----
-
-## 📁 Project Structure
-
-<details>
-<summary>Click to expand</summary>
-
-```
-custom-plugin-terraform/
-├── 📁 .claude-plugin/
-│   ├── plugin.json
-│   └── marketplace.json
-├── 📁 agents/              # 7 agents
-├── 📁 skills/              # 7 skills (Golden Format)
-├── 📁 commands/            # 4 commands
-├── 📁 hooks/
-├── 📄 README.md
-├── 📄 CHANGELOG.md
-└── 📄 LICENSE
-```
-
-</details>
-
----
-
-## 📅 Metadata
-
-| Field | Value |
-|-------|-------|
-| **Version** | 1.0.0 |
-| **Last Updated** | 2025-12-29 |
-| **Status** | Production Ready |
-| **SASMP** | v1.3.0 |
-| **Agents** | 7 |
-| **Skills** | 7 |
-| **Commands** | 4 |
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
-
-1. Fork the repository
-2. Create your feature branch
-3. Follow the Golden Format for new skills
-4. Submit a pull request
-
----
-
-## ⚠️ Security
-
-> **Important:** This repository contains third-party code and dependencies.
->
-> - ✅ Always review code before using in production
-> - ✅ Check dependencies for known vulnerabilities
-> - ✅ Follow security best practices
-> - ✅ Report security issues privately via [Issues](../../issues)
-
----
-
-## 📝 License
-
-Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
-
-Custom License - See [LICENSE](LICENSE) for details.
-
----
-
-## 👥 Contributors
-
-<table>
-<tr>
-<td align="center">
-<strong>Dr. Umit Kacar</strong><br/>
-Senior AI Researcher & Engineer
-</td>
-<td align="center">
-<strong>Muhsin Elcicek</strong><br/>
-Senior Software Architect
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-**Made with ❤️ for the Claude Code Community**
-
-[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
-
-</div>
+Dr. Umit Kacar & Muhsin Elcicek

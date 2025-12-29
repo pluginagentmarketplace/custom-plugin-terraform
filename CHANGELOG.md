@@ -1,23 +1,10 @@
 # Changelog
 
-All notable changes to this project are documented in this file.
+## [2.0.0] - 2024-12-29
 
-Format: [Keep a Changelog](https://keepachangelog.com/)
-Versioning: [Semantic Versioning](https://semver.org/)
-
-## [Unreleased]
-
-### Added
-- Upcoming features
-
-## [1.0.0] - 2025-12-29
-
-### Added
-- Initial release
+### Complete Rewrite
+- 8 specialized Terraform agents
+- 12 Golden Format skills
+- 4 practical commands
 - SASMP v1.3.0 compliance
-- Golden Format skills
-- Protective LICENSE
-
----
-
-**Maintained by:** Dr. Umit Kacar & Muhsin Elcicek
+- Replaced generic "developer roadmaps" with Terraform-specific content
