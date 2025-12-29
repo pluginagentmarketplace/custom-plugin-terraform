@@ -1,3 +1,9 @@
+---
+name: projects
+description: Discover Aligned Learning Projects
+allowed-tools: Read
+---
+
 # /projects - Discover Aligned Learning Projects
 
 **Browse 50+ carefully curated projects aligned to your skill level and learning goals.**

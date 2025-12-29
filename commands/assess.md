@@ -1,3 +1,9 @@
+---
+name: assess
+description: Skill Assessment & Level Evaluation
+allowed-tools: Read
+---
+
 # /assess - Skill Assessment & Level Evaluation
 
 **Evaluate your current skill level across all 7 specializations and get personalized improvement recommendations.**

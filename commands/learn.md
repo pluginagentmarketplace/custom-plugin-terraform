@@ -1,3 +1,9 @@
+---
+name: learn
+description: Personalized Learning Path Guide
+allowed-tools: Read
+---
+
 # /learn - Personalized Learning Path Guide
 
 **Your AI-powered guide to mastering software development across 7 specializations.**

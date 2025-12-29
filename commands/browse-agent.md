@@ -1,3 +1,9 @@
+---
+name: browse-agent
+description: agent - Explore Developer Roadmap Experts
+allowed-tools: Read
+---
+
 # /browse-agent - Explore Developer Roadmap Experts
 
 **Discover and connect with 7 specialized expert agents covering all domains of modern software development.**

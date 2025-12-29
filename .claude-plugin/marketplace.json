@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-terraform",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "terraform-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for terraform development",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Developer Roadmap Pro",
+  "name": "terraform-assistant",
   "version": "1.0.0",
   "description": "Master 65+ developer roadmaps across 7 specializations. Learn programming fundamentals, database design, API development, system architecture, caching/performance, DevOps, and testing/security with expert agents and curated learning paths.",
   "author": "Plugin Agent Marketplace",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-terraform",
   "keywords": [
     "developer-roadmap",
