@@ -1,17 +1,60 @@
 {
   "name": "terraform-development-assistant",
-  "version": "2.0.0",
-  "description": "Comprehensive Terraform IaC plugin with 8 specialized agents and 12 Golden Format skills",
+  "version": "2.1.0",
+  "description": "Production-grade Terraform IaC plugin with 8 specialized agents, 12 skills, and 4 commands for multi-cloud infrastructure automation",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
   },
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-terraform",
   "license": "MIT",
-  "keywords": ["terraform", "iac", "hcl", "aws", "azure", "gcp", "infrastructure"],
+  "keywords": [
+    "terraform",
+    "iac",
+    "hcl",
+    "aws",
+    "azure",
+    "gcp",
+    "kubernetes",
+    "infrastructure",
+    "multi-cloud",
+    "devops"
+  ],
   "sasmp_version": "1.3.0",
   "eqhm_enabled": true,
   "agents_count": 8,
   "skills_count": 12,
-  "commands_count": 4
+  "commands_count": 4,
+  "components": {
+    "agents": [
+      "01-terraform-fundamentals",
+      "02-terraform-modules",
+      "03-terraform-state",
+      "04-terraform-aws",
+      "05-terraform-azure",
+      "06-terraform-security",
+      "07-terraform-cicd",
+      "08-terraform-advanced"
+    ],
+    "skills": [
+      "terraform-fundamentals",
+      "terraform-modules",
+      "terraform-state",
+      "terraform-aws",
+      "terraform-azure",
+      "terraform-security",
+      "terraform-cicd",
+      "terraform-gcp",
+      "terraform-testing",
+      "terraform-kubernetes",
+      "terraform-workspace",
+      "terraform-providers"
+    ],
+    "commands": [
+      "tf-check",
+      "tf-init",
+      "tf-plan",
+      "tf-apply"
+    ]
+  }
 }
