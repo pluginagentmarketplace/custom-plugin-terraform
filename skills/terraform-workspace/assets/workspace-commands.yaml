@@ -1,0 +1,10 @@
+commands:
+  list: "terraform workspace list"
+  new: "terraform workspace new dev"
+  select: "terraform workspace select prod"
+  show: "terraform workspace show"
+  delete: "terraform workspace delete staging"
+best_practices:
+  - Use workspaces for environment separation
+  - Name workspaces after environments (dev, staging, prod)
+  - Use terraform.workspace in configurations
