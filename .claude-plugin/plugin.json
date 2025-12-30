@@ -1,8 +1,9 @@
 {
   "schema_version": "1.0.0",
+  "sasmp_version": "1.3.0",
   "name": "terraform-development-assistant",
   "version": "2.1.0",
-  "description": "Comprehensive Terraform IaC plugin with 8 specialized agents and 12 Golden Format skills for multi-cloud infrastructure, state management, and CI/CD automation",
+  "description": "Production-grade Terraform IaC plugin with 8 specialized agents, 12 skills, and 4 commands for multi-cloud infrastructure automation",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
@@ -19,8 +20,12 @@
     "gcp",
     "devops",
     "provisioning",
-    "kubernetes"
+    "kubernetes",
+    "multi-cloud",
+    "state-management",
+    "cicd"
   ],
+  "eqhm_enabled": true,
   "agents": [
     "./agents/01-terraform-fundamentals.md",
     "./agents/02-terraform-modules.md",
@@ -29,7 +34,7 @@
     "./agents/05-terraform-azure.md",
     "./agents/06-terraform-security.md",
     "./agents/07-terraform-cicd.md",
-    "./agents/08-terraform-cicd.md"
+    "./agents/08-terraform-advanced.md"
   ],
   "skills": [
     "./skills/terraform-fundamentals/SKILL.md",
@@ -53,5 +58,39 @@
   ],
   "hooks": {
     "hooks_config_path": "./hooks/hooks.json"
+  },
+  "agent_skill_bonds": {
+    "01-terraform-fundamentals": {
+      "primary": "terraform-fundamentals",
+      "secondary": ["terraform-providers"]
+    },
+    "02-terraform-modules": {
+      "primary": "terraform-modules",
+      "secondary": []
+    },
+    "03-terraform-state": {
+      "primary": "terraform-state",
+      "secondary": ["terraform-workspace"]
+    },
+    "04-terraform-aws": {
+      "primary": "terraform-aws",
+      "secondary": []
+    },
+    "05-terraform-azure": {
+      "primary": "terraform-azure",
+      "secondary": []
+    },
+    "06-terraform-security": {
+      "primary": "terraform-security",
+      "secondary": []
+    },
+    "07-terraform-cicd": {
+      "primary": "terraform-cicd",
+      "secondary": []
+    },
+    "08-terraform-advanced": {
+      "primary": null,
+      "secondary": ["terraform-gcp", "terraform-testing", "terraform-kubernetes"]
+    }
   }
 }
