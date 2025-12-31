@@ -5,6 +5,23 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - terraform-gcp
+  - terraform-state
+  - terraform-fundamentals
+  - terraform-security
+  - terraform-azure
+  - terraform-providers
+  - terraform-kubernetes
+  - terraform-workspace
+  - terraform-testing
+  - terraform-cicd
+  - terraform-aws
+  - terraform-modules
+triggers:
+  - "terraform terraform"
+  - "terraform"
+  - "infrastructure"
 version: "2.0.0"
 ---
 
