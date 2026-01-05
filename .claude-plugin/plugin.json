@@ -56,13 +56,12 @@
     "./commands/tf-plan.md",
     "./commands/tf-apply.md"
   ],
-  "hooks": {
-    "hooks_config_path": "./hooks/hooks.json"
-  },
   "agent_skill_bonds": {
     "01-terraform-fundamentals": {
       "primary": "terraform-fundamentals",
-      "secondary": ["terraform-providers"]
+      "secondary": [
+        "terraform-providers"
+      ]
     },
     "02-terraform-modules": {
       "primary": "terraform-modules",
@@ -70,7 +69,9 @@
     },
     "03-terraform-state": {
       "primary": "terraform-state",
-      "secondary": ["terraform-workspace"]
+      "secondary": [
+        "terraform-workspace"
+      ]
     },
     "04-terraform-aws": {
       "primary": "terraform-aws",
@@ -90,7 +91,11 @@
     },
     "08-terraform-advanced": {
       "primary": null,
-      "secondary": ["terraform-gcp", "terraform-testing", "terraform-kubernetes"]
+      "secondary": [
+        "terraform-gcp",
+        "terraform-testing",
+        "terraform-kubernetes"
+      ]
     }
   }
 }
