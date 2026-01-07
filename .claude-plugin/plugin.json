@@ -1,6 +1,5 @@
 {
   "schema_version": "1.0.0",
-  "sasmp_version": "1.3.0",
   "name": "terraform-development-assistant",
   "version": "2.1.0",
   "description": "Production-grade Terraform IaC plugin with 8 specialized agents, 12 skills, and 4 commands for multi-cloud infrastructure automation",
